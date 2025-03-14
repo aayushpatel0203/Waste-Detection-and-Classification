@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 17
+names: ['Keyboard', 'Mobile Phone', 'Monitor', 'aluminum', 'cardboard', 'egg shell', 'facemask', 'food wrapper', 'fruit peels', 'glass bottle', 'paper', 'plastic bag', 'plastic bottle', 'plastic container', 'plastic straw', 'treeleaves', 'vegetable peels']
+
+roboflow:
+  workspace: machine-learning-projects-pfcb3
+  project: household-trash-dataset-simple-3neqc
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/machine-learning-projects-pfcb3/household-trash-dataset-simple-3neqc/dataset/3
